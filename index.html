@@ -12,22 +12,34 @@
       <img id="header-img" src="./images/logo.jpg" alt="logo" />
       <nav id="nav-bar">
         <ul>
-          <li><a class="nav-link"> Home </a></li>
-          <li><a class="nav-link">About </a></li>
-          <li><a class="nav-link">Contacts </a></li>
+          <li><a href="#header" class="nav-link"> Home </a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#form" class="nav-link">Contacts </a></li>
         </ul>
       </nav>
     </header>
     <div>
       <video
-        src="https://www.youtube.com/watch?v=KdU8TyoeR4U"
+        src="/images/BOMBA COFFEE Promotional Video  Epic B-roll sequence _ All Handheld _ Daniel Schiffer Inspired - YouTube.mkv"
         id="video"
+        type="video/mp4"
+        width="300"
+        height="200"
+        controls
       ></video>
     </div>
-    <form id="form" action = "https://www.freecodecamp.com/email-submit">
-      <input type="email" id="email" placeholder="Enter Email" />
-      <input type="submit" id="submit"  />
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" name="email" placeholder="Enter Email" />
+      <input type="submit" id="submit" />
     </form>
+    <div id="about">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+        dolore sit laudantium accusamus, facere aperiam illo ea dignissimos,
+        sapiente, obcaecati hic beatae optio unde quos eum molestias vitae
+        impedit facilis.
+      </p>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>
